@@ -9,13 +9,15 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief This is the implementation file for stats.h
  *
- * <Add Extended Description Here>
+ * This file implements the functions declared in stats.h. It has functions
+ * to print an array containing unsigned chars, sort the array, find
+ * statistics like mean, medium, maximum, and, minimum values.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Aniket Sedhai
+ * @date 08/14/2024
  *
  */
 
@@ -39,5 +41,54 @@ void main() {
   /* Statistics and Printing Functions Go Here */
 
 }
+/*********************************************************************************************************************/
 
-/* Add other Implementation File Code Here */
+void print_array(unsigned char* array_p, uint8_t array_length)
+{
+
+}
+
+/*********************************************************************************************************************/
+
+void print_statistics(unsigned char* array_p, uint8_t array_length)
+{
+
+}
+
+/*********************************************************************************************************************/
+
+double find_median(unsigned char* array_p, uint8_t array_length)
+{
+  return -1;
+}
+
+/*********************************************************************************************************************/
+
+void sort_array(unsigned char* array_p, uint8_t array_length)
+{
+  return;
+}
+
+/*********************************************************************************************************************/
+
+double find_mean(unsigned char* array_p, uint8_t array_length)
+{
+  return  0.0;
+}
+
+/*********************************************************************************************************************/
+
+unsigned char find_minimum(unsigned char* array_p, uint8_t array_length)
+{
+  return 0;
+}
+
+/*********************************************************************************************************************/
+
+unsigned char find_maximum(unsigned char* array_p, uint8_t array_length)
+{
+  return 0;
+}
+
+/*********************************************************************************************************************/
+
